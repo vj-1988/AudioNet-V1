@@ -36,7 +36,7 @@ The network has five convolutional layers with kernel size 32 and stride of 4. T
 ![](https://github.com/vj-1988/AudioNet-V1/blob/master/Images/training_accuracy.png)
 
 
-## Training & Validation
+## Training 
 
 The dataset has to be in appropriate subfolders with each folder name being the class label. The script AudioNet32.py needs the following inputs to train
 
@@ -50,5 +50,9 @@ The script will generate a pickle file that contains synset for validation, trai
 
 The script will save weights once in every 2 epochs.
 
+## Validation
 
+The synset used for training is available in train_data_dic.pkl file. The pretrained weights are available in the following link
+
+[Download pretrained weights (Epoch 10)](https://drive.google.com/file/d/1vrfeXhtb8mRiLI1ja3Ep80M-zv9a-IVw/view?usp=sharing)
 
