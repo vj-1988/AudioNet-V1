@@ -18,9 +18,9 @@ Tested with following setup
 1) GTX 1050 TI 4 GB
 
 ## One Dimensional CNN
-Here, 1-D convolutions (linear convolutions) are used to classify the speech signal. The dataset used is Google's speech Commands Dataset
+Here, 1-D convolutions (linear convolutions) are used on top of regular hidden layers to classify the speech signal. The dataset used is Google's speech Commands Dataset
 
-The network has five convolutional layers with kernel size 32 and stride of 4. They are followed by four hidden layers with 512 neurons each. The network has approximately 10 million parameters in total.
+The network has five 1-D convolutional layers with kernel size 32 and stride of 4. They are followed by four hidden layers with 512 neurons each. The network has approximately 10 million parameters in total.
 
 ### Data Augmentation used
 
