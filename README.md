@@ -34,3 +34,21 @@ The network has five convolutional layers with kernel size 32 and stride of 4. T
 ### Training Acuracy vs Epochs
 
 ![](https://github.com/vj-1988/AudioNet-V1/blob/master/Images/training_accuracy.png)
+
+
+## Training & Validation
+
+The dataset has to be in appropriate subfolders with each folder name being the class label. The script AudioNet32.py needs the following inputs to train
+
+1) data_path : root folder of dataset
+2) train_ratio : ratio of files to be used for training and remaining is for validation
+3) batch_size : minibatch size for training.
+4) num_epochs : total no. of epochs
+5) dst : sestination folder to save weights, logs
+
+The script will generate a pickle file that contains synset for validation, training and validation files path and labels. This can be used to resume training using resume_training() function.
+
+The script will save weights once in every 2 epochs.
+
+
+
