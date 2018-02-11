@@ -29,8 +29,8 @@ The network has five convolutional layers with kernel size 32 and stride of 4. T
 
 ### Training Loss vs Epochs
 
-!(https://github.com/vj-1988/AudioNet-V1/blob/master/Images/training_loss.png)
+![](https://github.com/vj-1988/AudioNet-V1/blob/master/Images/training_loss.png)
 
 ### Training Acuracy vs Epochs
 
-!(https://github.com/vj-1988/AudioNet-V1/blob/master/Images/training_accuracy.png)
+![](https://github.com/vj-1988/AudioNet-V1/blob/master/Images/training_accuracy.png)
